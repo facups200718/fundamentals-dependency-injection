@@ -2,10 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-    <bean id="myIOTDeviceBean" class="com.skillsoft.IOTDevice" />
+    <bean id="myIOTDeviceBean" class="com.skillsoft.dto.IOTDevice" />
     <alias name="myIOTDeviceBean" alias="myBean" />
 
     <!--Esto es para el Main6-->
-    <bean id="myIOTDeviceBeanOne" class="com.skillsoft.IOTDevice" />
-    <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.IOTDevice" />
+    <bean id="myIOTDeviceBeanOne" class="com.skillsoft.dto.IOTDevice" />
+    <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.dto.IOTDevice" />
 </beans>

@@ -1,5 +1,6 @@
 package com.skillsoft;
 
+import com.skillsoft.dto.IOTDevice;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -1,5 +1,6 @@
 package com.skillsoft;
 
+import com.skillsoft.dto.IOTDevice;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.ClassPathResource;

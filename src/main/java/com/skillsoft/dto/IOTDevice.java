@@ -1,4 +1,4 @@
-package com.skillsoft;
+package com.skillsoft.dto;
 
 import lombok.*;
 
