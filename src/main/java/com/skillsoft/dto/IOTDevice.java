@@ -11,4 +11,12 @@ public class IOTDevice {
     }
     private String device = "Air Conditioner";
     private String description = "Temperature sensor";
+
+    public void initBean() throws Exception {
+        System.out.println("IOTDevice bean has been instantiated. Inside the initBean() method.");
+    }
+
+    public void destroyBean() throws Exception {
+        System.out.println("IOTDevice bean has been destroyed. Inside the destroyBean() method.");
+    }
 }

@@ -6,6 +6,8 @@
     <alias name="myIOTDeviceBean" alias="myBean" />
 
     <!--Esto es para el Main6-->
-    <bean id="myIOTDeviceBeanOne" class="com.skillsoft.dto.IOTDevice" />
-    <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.dto.IOTDevice" />
+    <bean id="myIOTDeviceBeanOne" class="com.skillsoft.dto.IOTDevice"
+            init-method="initBean" destroy-method="destroyBean"/>
+    <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.dto.IOTDevice"
+            init-method="initBean" destroy-method="destroyBean"/>
 </beans>
