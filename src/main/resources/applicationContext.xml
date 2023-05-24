@@ -5,4 +5,7 @@
     <bean id="myIOTDeviceBean" class="com.skillsoft.IOTDevice" />
     <alias name="myIOTDeviceBean" alias="myBean" />
 
+    <!--Esto es para el Main6-->
+    <bean id="myIOTDeviceBeanOne" class="com.skillsoft.IOTDevice" />
+    <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.IOTDevice" />
 </beans>

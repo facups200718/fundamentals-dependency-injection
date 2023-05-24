@@ -5,9 +5,10 @@ import lombok.*;
 @Data
 @ToString
 @EqualsAndHashCode
-@NoArgsConstructor
-@AllArgsConstructor
 public class IOTDevice {
+    public IOTDevice() {
+        System.out.println("The bean has been created");
+    }
     private String device = "Air Conditioner";
     private String description = "Temperature sensor";
 }
