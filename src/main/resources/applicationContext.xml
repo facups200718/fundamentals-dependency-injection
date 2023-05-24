@@ -10,4 +10,17 @@
             init-method="initBean" destroy-method="destroyBean"/>
     <bean id="myIOTDeviceBeanTwo" class="com.skillsoft.dto.IOTDevice"
             init-method="initBean" destroy-method="destroyBean"/>
+
+    <!--Esto es para el Main13-->
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+    <bean id="DishwasherBean" class="com.skillsoft.dto.IOTDevice3">
+        <!--Esto es si los argumentos corresponden al orden que tiene IOTDevice3-->
+        <constructor-arg value="Fridge" />
+        <constructor-arg value="Temperature gauge for the freezer" />
+    </bean>
+    <bean id="FridgeBean" class="com.skillsoft.dto.IOTDevice3">
+        <!--Esto es si los argumentos estan desordenados-->
+        <constructor-arg index="1" type="java.lang.String" value="Monitors water flow"/>
+        <constructor-arg name="device" value="Dishwasher" />
+    </bean>
 </beans>
