@@ -5,6 +5,8 @@ import lombok.*;
 @Data
 @ToString
 @EqualsAndHashCode
+@Builder
+@AllArgsConstructor
 public class IOTDevice {
     public IOTDevice() {
         System.out.println("The bean has been created");
